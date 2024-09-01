@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="px2_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="px2_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject db_ref_id="1" fp_name="/px2_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/spi_miso" type="logic">
+      <obj_property name="ElementShortName">spi_miso</obj_property>
+      <obj_property name="ObjectShortName">spi_miso</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/scs" type="logic">
+      <obj_property name="ElementShortName">scs</obj_property>
+      <obj_property name="ObjectShortName">scs</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/smosi" type="logic">
+      <obj_property name="ElementShortName">smosi</obj_property>
+      <obj_property name="ObjectShortName">smosi</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/pp/trig" type="logic">
+      <obj_property name="ElementShortName">trig</obj_property>
+      <obj_property name="ObjectShortName">trig</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/pp/cnt_clk_6us" type="array">
+      <obj_property name="ElementShortName">cnt_clk_6us[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_clk_6us[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/pp/clk_6us" type="logic">
+      <obj_property name="ElementShortName">clk_6us</obj_property>
+      <obj_property name="ObjectShortName">clk_6us</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/pp/clk_1020us" type="logic">
+      <obj_property name="ElementShortName">clk_1020us</obj_property>
+      <obj_property name="ObjectShortName">clk_1020us</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/pp/cnt_1020us" type="array">
+      <obj_property name="ElementShortName">cnt_1020us[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_1020us[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/pp/count_for_trig" type="array">
+      <obj_property name="ElementShortName">count_for_trig[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count_for_trig[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/px2_sim/pp/count_trig" type="array">
+      <obj_property name="ElementShortName">count_trig[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_trig[7:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,487 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jun 11 22:57:50 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Jun 05 11:52:38 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Jun 05 10:43:34 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Jun 05 10:09:13 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jun 04 22:42:18 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jun 04 20:45:29 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jun 04 20:43:20 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jun 04 20:40:02 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'ps2_design_1_px2_game_0_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'clk'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jun 04 20:33:24 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'ps2_design_1_px2_game_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'clk'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jun 04 20:29:22 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jun 04 20:26:14 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'ps2_design_1_px2_game_0_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'l3'
+-upgrade has removed port 'r3'
+-upgrade has removed port 'sselect'
+-upgrade has removed port 'start'
+-upgrade has added port 'l1'
+-upgrade has added port 'l2'
+-upgrade has added port 'o'
+-upgrade has added port 'r1'
+-upgrade has added port 'r2'
+-upgrade has added port 'square'
+-upgrade has added port 'triangle'
+-upgrade has added port 'x'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu May 23 15:40:59 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed May 22 16:28:28 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed May 22 16:25:14 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed May 22 16:23:36 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed May 22 16:18:18 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed May 22 15:35:40 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'ps2_design_1_px2_game_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'spi_miso'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed May 22 15:13:27 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed May 22 14:55:49 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed May 22 14:45:46 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed May 22 14:42:05 2024
+| Host         : DESKTOP-P1GI4OE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ps2_design_1_px2_game_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ps2_design_1_px2_game_0_0 (xilinx.com:user:px2_game:1.0 (Rev. 1)) to current project options.
+

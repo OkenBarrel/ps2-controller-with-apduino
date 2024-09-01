@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Files_for_work/hardware_proj/px2/px2.srcs/sim_1/imports/new/px2_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module px2_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Files_for_work/hardware_proj/px2/px2.srcs/sim_1/new/px2_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module px2_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Files_for_work/hardware_proj/px2/px2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

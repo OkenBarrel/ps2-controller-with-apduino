@@ -1,0 +1,1521 @@
+19:44:53 INFO  : Launching XSDB server: xsdb.bat -s D:/vivado/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+19:44:54 INFO  : Processing command line option -hwspec E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf.
+19:44:55 INFO  : XSDB server has started successfully.
+19:55:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:55:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+19:55:23 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+19:55:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:55:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+19:55:39 INFO  : 'fpga -state' command is executed.
+19:55:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:55:39 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+19:55:43 INFO  : Mermory regions for PS have been updated.
+19:55:43 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+19:55:44 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+19:55:44 INFO  : 'ps7_init' command is executed.
+19:55:44 INFO  : 'ps7_post_config' command is executed.
+19:55:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:55:45 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+19:55:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:55:45 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:55:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+19:55:45 INFO  : Memory regions updated for context APU
+19:55:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:55:46 INFO  : 'con' command is executed.
+19:55:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+19:58:15 INFO  : Refreshed build settings on project ps2_w_beep
+19:59:20 INFO  : Disconnected from the channel tcfchan#1.
+19:59:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:59:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+19:59:21 INFO  : 'fpga -state' command is executed.
+19:59:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:59:21 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+19:59:25 INFO  : Mermory regions for PS have been updated.
+19:59:25 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+19:59:25 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+19:59:26 INFO  : 'ps7_init' command is executed.
+19:59:26 INFO  : 'ps7_post_config' command is executed.
+19:59:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:59:27 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+19:59:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:59:27 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:59:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+19:59:27 INFO  : Memory regions updated for context APU
+19:59:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:59:27 INFO  : 'con' command is executed.
+19:59:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+20:00:51 INFO  : Refreshed build settings on project ps2_w_beep
+20:02:07 INFO  : Disconnected from the channel tcfchan#2.
+20:02:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+20:02:19 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+20:02:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+20:02:25 INFO  : 'fpga -state' command is executed.
+20:02:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:25 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:02:29 INFO  : Mermory regions for PS have been updated.
+20:02:29 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:02:29 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:02:30 ERROR : Cannot halt processor core, timeout
+20:02:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+----------------End of Script----------------
+
+20:02:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+20:02:50 INFO  : 'fpga -state' command is executed.
+20:02:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:51 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:02:55 INFO  : Mermory regions for PS have been updated.
+20:02:55 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:02:55 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:02:56 ERROR : Cannot halt processor core, timeout
+20:02:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+----------------End of Script----------------
+
+20:04:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:04:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+20:04:39 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+20:05:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:05:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+20:05:06 INFO  : 'fpga -state' command is executed.
+20:05:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:05:07 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:05:11 INFO  : Mermory regions for PS have been updated.
+20:05:11 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:05:11 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:05:12 INFO  : 'ps7_init' command is executed.
+20:05:12 INFO  : 'ps7_post_config' command is executed.
+20:05:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:05:12 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:05:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:05:13 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:05:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+20:05:13 INFO  : Memory regions updated for context APU
+20:05:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:05:13 INFO  : 'con' command is executed.
+20:05:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+20:07:00 INFO  : Disconnected from the channel tcfchan#3.
+20:07:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:07:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+20:07:01 INFO  : 'fpga -state' command is executed.
+20:07:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:07:01 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:07:05 INFO  : Mermory regions for PS have been updated.
+20:07:05 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:07:06 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:07:06 INFO  : 'ps7_init' command is executed.
+20:07:06 INFO  : 'ps7_post_config' command is executed.
+20:07:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:07:07 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:07:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:07:07 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:07:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+20:07:07 INFO  : Memory regions updated for context APU
+20:07:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:07:07 INFO  : 'con' command is executed.
+20:07:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+20:10:19 INFO  : Disconnected from the channel tcfchan#4.
+20:10:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:10:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+20:10:20 INFO  : 'fpga -state' command is executed.
+20:10:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:10:20 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:10:24 INFO  : Mermory regions for PS have been updated.
+20:10:24 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:10:25 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:10:25 INFO  : 'ps7_init' command is executed.
+20:10:25 INFO  : 'ps7_post_config' command is executed.
+20:10:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:10:26 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:10:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:10:26 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:10:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+20:10:26 INFO  : Memory regions updated for context APU
+20:10:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:10:26 INFO  : 'con' command is executed.
+20:10:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+20:26:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1718108733191,  Project:1718105732611
+20:26:06 INFO  : Project ps2_design_1_wrapper_hw_platform_0's source hardware specification located at E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:26:15 INFO  : Copied contents of E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf into \ps2_design_1_wrapper_hw_platform_0\system.hdf.
+20:26:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:26:21 INFO  : 
+20:26:22 INFO  : Updating hardware inferred compiler options for ps2_w_beep.
+20:26:22 INFO  : Clearing existing target manager status.
+20:26:22 INFO  : Closing and re-opening the MSS file of ther project ps2_w_beep_bsp
+20:26:22 INFO  : Closing and re-opening the MSS file of ther project ps2_w_beep_bsp
+20:26:22 INFO  : Closing and re-opening the MSS file of ther project ps2_w_beep_bsp
+20:26:22 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:26:23 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:26:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:26:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+20:27:03 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+20:27:53 INFO  : Disconnected from the channel tcfchan#5.
+20:27:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:27:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+20:27:55 INFO  : 'fpga -state' command is executed.
+20:27:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:27:55 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:27:59 INFO  : Mermory regions for PS have been updated.
+20:27:59 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:28:00 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+20:28:00 INFO  : 'ps7_init' command is executed.
+20:28:00 INFO  : 'ps7_post_config' command is executed.
+20:28:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:28:01 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:28:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:28:01 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:28:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+20:28:01 INFO  : Memory regions updated for context APU
+20:28:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:28:01 INFO  : 'con' command is executed.
+20:28:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+23:54:25 INFO  : Disconnected from the channel tcfchan#6.
+23:54:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:59:29 INFO  : Launching XSDB server: xsdb.bat -s D:/vivado/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:59:29 INFO  : Processing command line option -hwspec E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf.
+07:59:30 INFO  : Checking for hwspec changes in the project ps2_design_1_wrapper_hw_platform_0.
+07:59:31 INFO  : XSDB server has started successfully.
+07:59:31 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1718120944563,  Project:1718108733191
+07:59:31 INFO  : The hardware specification for project 'ps2_design_1_wrapper_hw_platform_0' is different from E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf.
+07:59:31 INFO  : Copied contents of E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf into \ps2_design_1_wrapper_hw_platform_0\system.hdf.
+07:59:34 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+07:59:36 INFO  : 
+07:59:37 INFO  : Updating hardware inferred compiler options for ps2_w_beep.
+07:59:37 INFO  : Clearing existing target manager status.
+08:00:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:00:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+08:00:44 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+08:00:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:00:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+08:00:52 INFO  : 'fpga -state' command is executed.
+08:00:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:00:53 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+08:00:57 INFO  : Mermory regions for PS have been updated.
+08:00:57 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+08:00:57 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+08:00:57 INFO  : 'ps7_init' command is executed.
+08:00:58 INFO  : 'ps7_post_config' command is executed.
+08:00:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+08:00:58 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+08:00:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+08:00:59 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+08:00:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+08:00:59 INFO  : Memory regions updated for context APU
+08:00:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+08:00:59 INFO  : 'con' command is executed.
+08:00:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+08:10:21 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1718151006559,  Project:1718120944563
+08:10:21 INFO  : Project ps2_design_1_wrapper_hw_platform_0's source hardware specification located at E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+08:10:49 INFO  : Copied contents of E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf into \ps2_design_1_wrapper_hw_platform_0\system.hdf.
+08:10:51 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+08:10:54 INFO  : 
+08:10:54 INFO  : Updating hardware inferred compiler options for ps2_w_beep.
+08:10:54 INFO  : Clearing existing target manager status.
+08:11:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:11:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+08:11:25 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+08:11:31 INFO  : Disconnected from the channel tcfchan#1.
+08:11:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:11:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+08:11:33 INFO  : 'fpga -state' command is executed.
+08:11:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:11:33 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+08:11:37 INFO  : Mermory regions for PS have been updated.
+08:11:37 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+08:11:38 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+08:11:38 INFO  : 'ps7_init' command is executed.
+08:11:38 INFO  : 'ps7_post_config' command is executed.
+08:11:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+08:11:39 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+08:11:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+08:11:39 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+08:11:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+08:11:39 INFO  : Memory regions updated for context APU
+08:11:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+08:11:39 INFO  : 'con' command is executed.
+08:11:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+08:20:11 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1718151597149,  Project:1718151006559
+08:20:11 INFO  : Project ps2_design_1_wrapper_hw_platform_0's source hardware specification located at E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+08:20:22 INFO  : Copied contents of E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf into \ps2_design_1_wrapper_hw_platform_0\system.hdf.
+08:20:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+08:20:27 INFO  : 
+08:20:28 INFO  : Updating hardware inferred compiler options for ps2_w_beep.
+08:20:28 INFO  : Clearing existing target manager status.
+08:20:28 INFO  : Closing and re-opening the MSS file of ther project ps2_w_beep_bsp
+08:20:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+08:20:28 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+08:20:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:20:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+08:21:01 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+08:21:58 INFO  : Disconnected from the channel tcfchan#2.
+08:21:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:21:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+08:22:00 INFO  : 'fpga -state' command is executed.
+08:22:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:22:00 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+08:22:04 INFO  : Mermory regions for PS have been updated.
+08:22:04 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+08:22:04 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+08:22:05 INFO  : 'ps7_init' command is executed.
+08:22:05 INFO  : 'ps7_post_config' command is executed.
+08:22:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+08:22:05 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+08:22:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+08:22:06 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+08:22:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+08:22:06 INFO  : Memory regions updated for context APU
+08:22:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+08:22:06 INFO  : 'con' command is executed.
+08:22:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+09:04:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:04:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+09:04:49 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+09:04:56 INFO  : Disconnected from the channel tcfchan#3.
+09:04:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:04:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+09:04:56 INFO  : 'fpga -state' command is executed.
+09:04:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:04:57 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:05:01 INFO  : Mermory regions for PS have been updated.
+09:05:01 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+09:05:01 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:05:02 INFO  : 'ps7_init' command is executed.
+09:05:02 INFO  : 'ps7_post_config' command is executed.
+09:05:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:05:02 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+09:05:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:05:03 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:05:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+09:05:03 INFO  : Memory regions updated for context APU
+09:05:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:05:03 INFO  : 'con' command is executed.
+09:05:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+09:06:30 INFO  : Disconnected from the channel tcfchan#4.
+09:06:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:06:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+09:06:30 INFO  : 'fpga -state' command is executed.
+09:06:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:06:31 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:06:35 INFO  : Mermory regions for PS have been updated.
+09:06:35 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+09:06:35 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:06:35 INFO  : 'ps7_init' command is executed.
+09:06:36 INFO  : 'ps7_post_config' command is executed.
+09:06:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:06:36 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+09:06:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:06:37 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:06:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+09:06:37 INFO  : Memory regions updated for context APU
+09:06:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:06:37 INFO  : 'con' command is executed.
+09:06:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+09:08:55 INFO  : Disconnected from the channel tcfchan#5.
+09:08:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:08:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+09:08:55 INFO  : 'fpga -state' command is executed.
+09:08:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:08:56 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:09:00 INFO  : Mermory regions for PS have been updated.
+09:09:00 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+09:09:00 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:09:01 INFO  : 'ps7_init' command is executed.
+09:09:01 INFO  : 'ps7_post_config' command is executed.
+09:09:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:09:01 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+09:09:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:09:02 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:09:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+09:09:02 INFO  : Memory regions updated for context APU
+09:09:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:09:02 INFO  : 'con' command is executed.
+09:09:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+09:10:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:10:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+09:10:52 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+09:10:59 INFO  : Disconnected from the channel tcfchan#6.
+09:10:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:10:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+09:10:59 INFO  : 'fpga -state' command is executed.
+09:10:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:10:59 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:11:03 INFO  : Mermory regions for PS have been updated.
+09:11:04 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+09:11:04 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:11:04 INFO  : 'ps7_init' command is executed.
+09:11:04 INFO  : 'ps7_post_config' command is executed.
+09:11:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:11:05 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+09:11:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:11:05 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:11:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+09:11:05 INFO  : Memory regions updated for context APU
+09:11:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:11:06 INFO  : 'con' command is executed.
+09:11:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+09:12:08 INFO  : Disconnected from the channel tcfchan#7.
+09:12:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:12:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+09:12:46 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+09:13:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:13:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+09:13:18 INFO  : 'fpga -state' command is executed.
+09:13:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:13:18 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:13:23 INFO  : Mermory regions for PS have been updated.
+09:13:23 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+09:13:23 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+09:13:23 INFO  : 'ps7_init' command is executed.
+09:13:23 INFO  : 'ps7_post_config' command is executed.
+09:13:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:13:24 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+09:13:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:13:24 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:13:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+09:13:24 INFO  : Memory regions updated for context APU
+09:13:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:13:25 INFO  : 'con' command is executed.
+09:13:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+15:06:05 INFO  : Disconnected from the channel tcfchan#8.
+15:06:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:56:46 INFO  : Launching XSDB server: xsdb.bat -s D:/vivado/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:56:47 INFO  : Processing command line option -hwspec E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf.
+16:56:48 INFO  : XSDB server has started successfully.
+16:56:49 INFO  : Checking for hwspec changes in the project ps2_design_1_wrapper_hw_platform_0.
+16:56:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:56:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+16:57:01 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+16:57:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:57:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+16:57:24 INFO  : 'fpga -state' command is executed.
+16:57:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:57:24 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+16:57:28 INFO  : Mermory regions for PS have been updated.
+16:57:28 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:57:29 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+16:57:29 INFO  : 'ps7_init' command is executed.
+16:57:29 INFO  : 'ps7_post_config' command is executed.
+16:57:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:57:30 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:57:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:57:30 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:57:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+16:57:31 INFO  : Memory regions updated for context APU
+16:57:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:57:31 INFO  : 'con' command is executed.
+16:57:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+16:58:05 INFO  : Disconnected from the channel tcfchan#1.
+16:58:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:58:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+16:58:05 INFO  : 'fpga -state' command is executed.
+16:58:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:58:06 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+16:58:10 INFO  : Mermory regions for PS have been updated.
+16:58:10 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:58:10 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+16:58:11 INFO  : 'ps7_init' command is executed.
+16:58:11 INFO  : 'ps7_post_config' command is executed.
+16:58:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:58:11 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:58:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:58:12 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:58:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+16:58:12 INFO  : Memory regions updated for context APU
+16:58:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:58:12 INFO  : 'con' command is executed.
+16:58:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+17:42:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:42:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+17:42:57 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+17:43:12 INFO  : Disconnected from the channel tcfchan#2.
+17:43:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:43:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+17:43:12 INFO  : 'fpga -state' command is executed.
+17:43:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:43:13 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+17:43:17 INFO  : Mermory regions for PS have been updated.
+17:43:17 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+17:43:17 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+17:43:18 INFO  : 'ps7_init' command is executed.
+17:43:18 INFO  : 'ps7_post_config' command is executed.
+17:43:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:43:18 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+17:43:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:43:19 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:43:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+17:43:19 INFO  : Memory regions updated for context APU
+17:43:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:43:19 INFO  : 'con' command is executed.
+17:43:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+22:01:55 INFO  : Disconnected from the channel tcfchan#3.
+22:01:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:05:58 INFO  : Launching XSDB server: xsdb.bat -s D:/vivado/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+18:05:59 INFO  : Processing command line option -hwspec E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper.hdf.
+18:06:00 INFO  : Checking for hwspec changes in the project ps2_design_1_wrapper_hw_platform_0.
+18:06:00 INFO  : XSDB server has started successfully.
+18:06:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:06:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+18:06:44 INFO  : FPGA configured successfully with bitstream "E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps2_design_1_wrapper.bit"
+18:07:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:07:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180215" && level==0} -index 1' command is executed.
+18:07:12 INFO  : 'fpga -state' command is executed.
+18:07:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:07:12 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+18:07:16 INFO  : Mermory regions for PS have been updated.
+18:07:16 INFO  : Sourcing of 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:07:17 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0' command is executed.
+18:07:17 INFO  : 'ps7_init' command is executed.
+18:07:17 INFO  : 'ps7_post_config' command is executed.
+18:07:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:07:18 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+18:07:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:07:18 INFO  : The application 'E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:07:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 4160753664 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 1136721920 -size 65536 -flags 3
+source E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+dow E:/Files_for_work/hardware_proj/px2_all/px2_all.sdk/ps2_w_beep/Debug/ps2_w_beep.elf
+----------------End of Script----------------
+
+18:07:18 INFO  : Memory regions updated for context APU
+18:07:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:07:18 INFO  : 'con' command is executed.
+18:07:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180215"} -index 0
+con
+----------------End of Script----------------
+
+18:13:56 INFO  : Disconnected from the channel tcfchan#1.
+18:13:57 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

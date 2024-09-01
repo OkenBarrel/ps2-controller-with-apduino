@@ -1,0 +1,235 @@
+/*
+ * main.c
+ *
+ *  Created on: 2024年6月11日
+ *      Author: Milky
+ */
+
+
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xil_types.h"
+#include "sleep.h"
+#include "xgpio.h"
+#include "xgpiops.h"
+#include <inttypes.h>
+//#include "lcd.h"
+#define RIGHTEDGE 640
+#define UPEDGE 480
+//XPAR_TEST_NEW2_0_S00_AXI_BASEADDR
+struct mainChara{
+	int room;
+	int blood;
+	int x;
+	int y;
+}mainChara;
+//list main bullet+enm bullet0
+//list enm
+struct mc_blt{
+	int fromM;
+	int x;
+	int y;
+};
+struct enm{
+	int blood;
+	int x;
+	int y;
+}enm;
+
+
+int main() {
+    static XGpio LED_Ptr;
+    int tri, o, x, square;
+    int tri_prev, o_prev, x_prev, square_prev;
+    int Xstatus;
+    uint32_t butt;
+    uint16_t low_twelve;
+
+    Xstatus = XGpio_Initialize(&LED_Ptr, XPAR_AXI_GPIO_0_DEVICE_ID);
+    if (Xstatus != XST_SUCCESS) {
+        print("GPIO INIT FAILED\n");
+    } else {
+        print("yes\n");
+    }
+
+    XGpio_SetDataDirection(&LED_Ptr, 1, 0x000);
+    XGpio_DiscreteWrite(&LED_Ptr, 1, 0xFFF);
+
+    while (1) {
+        butt = Xil_In32(XPAR_PX2_GAME_0_S00_AXI_BASEADDR);
+//        printf("Value of butt (hex): %u\n", butt);
+        low_twelve = butt & 0x00000FFF;
+
+        int tri_curr = (low_twelve >> 11) & 1;
+        int x_curr = (low_twelve >> 10) & 1;
+        int o_curr = (low_twelve >> 9) & 1;
+        int square_curr = (low_twelve >> 8) & 1;
+
+        // 更新LED状态
+        XGpio_DiscreteWrite(&LED_Ptr, 1, low_twelve);
+
+        // 去抖动逻辑
+        tri = (tri_curr == 0 && tri_prev == 0) ? 1 : 0;
+        o = (o_curr == 0 && o_prev == 0) ? 1 : 0;
+        square = (square_curr == 0 && square_prev == 0) ? 1 : 0;
+        x = (x_curr == 0 && x_prev == 0) ? 1 : 0;
+
+//        uint32_t combined = (tri << 3) | (o << 2) | (square << 1) | (x << 0);
+		tri_prev = tri_curr;
+		o_prev = o_curr;
+		square_prev = square_curr;
+		x_prev = x_curr;
+        uint32_t current_value = Xil_In32(XPAR_TEST_NEW2_0_S00_AXI_BASEADDR);
+        current_value &= ~1;  // 这里使用按位与和按位非操作清除最低位
+
+       // 设置val的最低位为bit
+        current_value |= (o & 1);
+            // 写回修改后的值
+//        printf("current:%u\n",current_value);
+        Xil_Out32(XPAR_TEST_NEW2_0_S00_AXI_BASEADDR, current_value);
+//        printf("Bits: tri %d x %d o%d sqaure%d \n",tri, x, o, square);
+
+        // 如果需要，在这里处理按键按下的逻
+        if (square) {
+            printf("Square pressed\n");
+        }
+        if (o) {
+            printf("O pressed\n");
+        }
+        if (tri) {
+            printf("Triangle pressed\n");
+        }
+        if (x) {
+            printf("X pressed\n");
+        }
+
+    }
+
+    return 0;
+}
+//int main(){
+//	static XGpio LED_Ptr;
+//	int tri,o,x,square,up,down,left,right,l1,l2,r1,r2;
+//	int tri1,o1,x1,square1,up1,down1,left1,right1,l11,l21,r11,r21;//1是上次的
+//	int Xstatus;
+//	uint32_t butt;
+//
+//	uint16_t low_twelve;
+//
+//	Xstatus=XGpio_Initialize(&LED_Ptr,XPAR_AXI_GPIO_0_DEVICE_ID);
+//	if(Xstatus!=XST_SUCCESS){
+//		print("GPIO INIT FAILED\n");
+//	}
+//	else{
+//		print("yes\n");
+//	}
+//	XGpio_SetDataDirection(&LED_Ptr,1,0x000);
+//	XGpio_DiscreteWrite(&LED_Ptr,1,0xFFF);
+//
+//	while(1){
+//		butt=Xil_In32(XPAR_PX2_GAME_0_S00_AXI_BASEADDR);
+////		printf("Value of butt (hex): %u\n",butt);
+//		low_twelve = butt & 0x00000FFF;
+////		int bit15 = (low_twelve >> 15) & 1;
+////		int bit14 = (low_twelve >> 14) & 1;
+////		int bit13 = (low_twelve >> 13) & 1;
+////		int bit12 = (low_twelve >> 12) & 1;
+//		int tri2 = (low_twelve >> 11) & 1;
+//		int x2 = (low_twelve >> 10) & 1;
+//		int o2 = (low_twelve >> 9) & 1;
+//		int square2 = (low_twelve >> 8) & 1;
+//		XGpio_DiscreteWrite(&LED_Ptr,1,low_twelve);
+////		int l22 = (low_twelve >> 7) & 1;
+////		int r22 = (low_twelve >> 6) & 1;
+////		int l12 = (low_twelve >> 5) & 1;
+////		int r12 = (low_twelve >> 4) & 1;
+////		int up2 = (low_twelve >> 3) & 1;
+////		int down2 = (low_twelve >> 2) & 1;
+////		int left2 = (low_twelve >> 1) & 1;
+////		int right2 = (low_twelve >> 0) & 1;
+//		if(tri2==0&&tri1==0){
+//			tri=1;
+//		}else{
+//			tri=0;
+//		}
+//		if(o2==0&&o1==0){
+//			o=1;
+//		}else{
+//			o=0;
+//		}
+//		if(square2==0&&square1==0){
+//			square=1;
+//		}else{
+//			square=0;
+//		}
+//		if(x2==0&&x1==0){
+//			x=1;
+//		}else{
+//			x=0;
+//		}
+//		uint32_t combined = (tri << 3) |
+//		                        (o << 2) |
+//		                        (square << 1) |
+//		                        (x << 0);
+//		tri1=tri2;
+//		o1=o2;
+//		square1=square2;
+//		x1=x2;
+//
+//		if(x==1){
+//			printf("x\n");
+//		}
+//		if(o==1){
+//					printf("o\n");
+//				}
+//		if(square==1){
+//							printf("square\n");
+//						}
+//		if(tri==1){
+//							printf("tri\n");
+//		}
+////		printf("Bits: 15 %d 14 %d 13 %d 12 %d tri %d x %d o%d sqaure%d l2%d r2%d l1%d r1%d up%d down%d left%d right%d\n",
+////			bit15, bit14, bit13, bit12, tri, x, o, square,
+////			l2, r2, l1, r1, up, down, left, right);
+////		if(square==0){
+////			printf("square\n");
+////		}
+////		if(o==0){
+////					printf("o\n");
+////		}
+////		if(tri==0){
+////					printf("tri\n");
+////		}
+////		if(x==0){
+////					printf("x\n");
+////		}
+////		if(left==0){
+////					printf("left\n");
+////				}
+////		if(right==0){
+////					printf("right\n");
+////				}
+////		if(up==0){
+////					printf("up\n");
+////				}
+////		if(down==0){
+////							printf("down\n");
+////						}
+////		if(l1==0){
+////							printf("l1\n");
+////						}
+////		if(l2==0){
+////							printf("l2\n");
+////						}
+////		if(r1==0){
+////							printf("r1\n");
+////						}
+////		if(r2==0){
+////							printf("r2\n");
+////		}
+//
+//	}
+//
+//	return 0;
+//}

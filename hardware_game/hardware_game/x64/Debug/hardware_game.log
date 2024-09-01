@@ -1,0 +1,6 @@
+﻿  hardware_game.cpp
+E:\Files_for_work\hardware_proj\hardware_game\hardware_game\structs.h(51,2): warning C4091: “typedef ”: 没有声明变量时忽略“room”的左侧
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+E:\Files_for_work\hardware_proj\hardware_game\hardware_game\hardware_game.cpp(189,9): warning C4101: “i”: 未引用的局部变量
+E:\Files_for_work\hardware_proj\hardware_game\hardware_game\hardware_game.cpp(336,10): warning C4101: “p”: 未引用的局部变量
+  hardware_game.vcxproj -> E:\Files_for_work\hardware_proj\hardware_game\x64\Debug\hardware_game.exe

@@ -1,0 +1,1 @@
+-wto "d5d8d237782b4c9da8f4f2ad519a0a0d" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "secureip" --snapshot "px2_top_func_synth" "xil_defaultlib.px2_top" "xil_defaultlib.glbl" -log "elaborate.log" 

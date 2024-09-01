@@ -1,0 +1,1772 @@
+19:46:40 **** Build of project ps2_w_beep_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling px2_game..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling test_new2..."
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+19:47:49 **** Build of project ps2_w_beep_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling px2_game..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling test_new2..."
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+19:48:13 **** Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../ps2_w_beep_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+E:\Files_for_work\hardware_proj\px2_all\px2_all.sdk\ps2_w_beep_bsp\ps7_cortexa9_0\libsrc\standalone_v5_1\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [ps2_w_beep.elf] ´íÎó 1
+19:48:17 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:78:18: warning: unused variable 'combined' [-Wunused-variable]
+         uint32_t combined = (tri << 3) | (o << 2) | (square << 1) | (x << 0);
+                  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59724	   2336	  22700	  84760	  14b18	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+19:50:23 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/main.c:11:
+../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xparameters.h:372:43: error: expected identifier or '(' before numeric constant
+ #define XPAR_TEST_NEW2_0_S00_AXI_BASEADDR 0x43C10000
+                                           ^
+../src/main.c:20:1: note: in expansion of macro 'XPAR_TEST_NEW2_0_S00_AXI_BASEADDR'
+ XPAR_TEST_NEW2_0_S00_AXI_BASEADDR
+ ^
+../src/main.c:26:2: warning: data definition has no type or storage class
+ }mainChara;
+  ^
+../src/main.c:26:2: warning: type defaults to 'int' in declaration of 'mainChara' [-Wimplicit-int]
+../src/main.c: In function 'main':
+../src/main.c:78:18: warning: unused variable 'combined' [-Wunused-variable]
+         uint32_t combined = (tri << 3) | (o << 2) | (square << 1) | (x << 0);
+                  ^
+make: *** [src/main.o] ´íÎó 1
+19:52:23 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/main.c:11:
+../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xparameters.h:372:43: error: expected identifier or '(' before numeric constant
+ #define XPAR_TEST_NEW2_0_S00_AXI_BASEADDR 0x43C10000
+                                           ^
+../src/main.c:20:1: note: in expansion of macro 'XPAR_TEST_NEW2_0_S00_AXI_BASEADDR'
+ XPAR_TEST_NEW2_0_S00_AXI_BASEADDR
+ ^
+../src/main.c:26:2: warning: data definition has no type or storage class
+ }mainChara;
+  ^
+../src/main.c:26:2: warning: type defaults to 'int' in declaration of 'mainChara' [-Wimplicit-int]
+../src/main.c: In function 'main':
+../src/main.c:92:23: error: 'base_addr' undeclared (first use in this function)
+             Xil_Out32(base_addr, current_value);
+                       ^
+../src/main.c:92:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:78:18: warning: unused variable 'combined' [-Wunused-variable]
+         uint32_t combined = (tri << 3) | (o << 2) | (square << 1) | (x << 0);
+                  ^
+make: *** [src/main.o] ´íÎó 1
+19:52:33 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/main.c:11:
+../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xparameters.h:372:43: error: expected identifier or '(' before numeric constant
+ #define XPAR_TEST_NEW2_0_S00_AXI_BASEADDR 0x43C10000
+                                           ^
+../src/main.c:20:1: note: in expansion of macro 'XPAR_TEST_NEW2_0_S00_AXI_BASEADDR'
+ XPAR_TEST_NEW2_0_S00_AXI_BASEADDR
+ ^
+../src/main.c:26:2: warning: data definition has no type or storage class
+ }mainChara;
+  ^
+../src/main.c:26:2: warning: type defaults to 'int' in declaration of 'mainChara' [-Wimplicit-int]
+../src/main.c: In function 'main':
+../src/main.c:92:19: error: 'base_addr' undeclared (first use in this function)
+         Xil_Out32(base_addr, current_value);
+                   ^
+../src/main.c:92:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:78:18: warning: unused variable 'combined' [-Wunused-variable]
+         uint32_t combined = (tri << 3) | (o << 2) | (square << 1) | (x << 0);
+                  ^
+make: *** [src/main.o] ´íÎó 1
+19:52:46 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/main.c:11:
+../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xparameters.h:372:43: error: expected identifier or '(' before numeric constant
+ #define XPAR_TEST_NEW2_0_S00_AXI_BASEADDR 0x43C10000
+                                           ^
+../src/main.c:20:1: note: in expansion of macro 'XPAR_TEST_NEW2_0_S00_AXI_BASEADDR'
+ XPAR_TEST_NEW2_0_S00_AXI_BASEADDR
+ ^
+../src/main.c:26:2: warning: data definition has no type or storage class
+ }mainChara;
+  ^
+../src/main.c:26:2: warning: type defaults to 'int' in declaration of 'mainChara' [-Wimplicit-int]
+../src/main.c: In function 'main':
+../src/main.c:78:18: warning: unused variable 'combined' [-Wunused-variable]
+         uint32_t combined = (tri << 3) | (o << 2) | (square << 1) | (x << 0);
+                  ^
+make: *** [src/main.o] ´íÎó 1
+19:55:35 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/main.c:11:
+../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xparameters.h:372:43: error: expected identifier or '(' before numeric constant
+ #define XPAR_TEST_NEW2_0_S00_AXI_BASEADDR 0x43C10000
+                                           ^
+../src/main.c:20:1: note: in expansion of macro 'XPAR_TEST_NEW2_0_S00_AXI_BASEADDR'
+ XPAR_TEST_NEW2_0_S00_AXI_BASEADDR
+ ^
+../src/main.c:26:2: warning: data definition has no type or storage class
+ }mainChara;
+  ^
+../src/main.c:26:2: warning: type defaults to 'int' in declaration of 'mainChara' [-Wimplicit-int]
+../src/main.c: In function 'main':
+../src/main.c:78:18: warning: unused variable 'combined' [-Wunused-variable]
+         uint32_t combined = (tri << 3) | (o << 2) | (square << 1) | (x << 0);
+                  ^
+make: *** [src/main.o] ´íÎó 1
+19:58:15 **** Auto Build of project ps2_w_beep_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling px2_game..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling test_new2..."
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+19:58:39 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/main.c:11:
+../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xparameters.h:372:43: error: expected identifier or '(' before numeric constant
+ #define XPAR_TEST_NEW2_0_S00_AXI_BASEADDR 0x43C10000
+                                           ^
+../src/main.c:20:1: note: in expansion of macro 'XPAR_TEST_NEW2_0_S00_AXI_BASEADDR'
+ XPAR_TEST_NEW2_0_S00_AXI_BASEADDR
+ ^
+../src/main.c:26:2: warning: data definition has no type or storage class
+ }mainChara;
+  ^
+../src/main.c:26:2: warning: type defaults to 'int' in declaration of 'mainChara' [-Wimplicit-int]
+../src/main.c: In function 'main':
+../src/main.c:78:18: warning: unused variable 'combined' [-Wunused-variable]
+         uint32_t combined = (tri << 3) | (o << 2) | (square << 1) | (x << 0);
+                  ^
+make: *** [src/main.o] ´íÎó 1
+19:58:52 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/main.c:11:
+../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xparameters.h:372:43: error: expected identifier or '(' before numeric constant
+ #define XPAR_TEST_NEW2_0_S00_AXI_BASEADDR 0x43C10000
+                                           ^
+../src/main.c:20:1: note: in expansion of macro 'XPAR_TEST_NEW2_0_S00_AXI_BASEADDR'
+ XPAR_TEST_NEW2_0_S00_AXI_BASEADDR
+ ^
+../src/main.c:26:2: warning: data definition has no type or storage class
+ }mainChara;
+  ^
+../src/main.c:26:2: warning: type defaults to 'int' in declaration of 'mainChara' [-Wimplicit-int]
+../src/main.c: In function 'main':
+../src/main.c:78:18: warning: unused variable 'combined' [-Wunused-variable]
+         uint32_t combined = (tri << 3) | (o << 2) | (square << 1) | (x << 0);
+                  ^
+make: *** [src/main.o] ´íÎó 1
+19:58:57 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/main.c:11:
+../../ps2_w_beep_bsp/ps7_cortexa9_0/include/xparameters.h:372:43: error: expected identifier or '(' before numeric constant
+ #define XPAR_TEST_NEW2_0_S00_AXI_BASEADDR 0x43C10000
+                                           ^
+../src/main.c:20:1: note: in expansion of macro 'XPAR_TEST_NEW2_0_S00_AXI_BASEADDR'
+ XPAR_TEST_NEW2_0_S00_AXI_BASEADDR
+ ^
+../src/main.c:26:2: warning: data definition has no type or storage class
+ }mainChara;
+  ^
+../src/main.c:26:2: warning: type defaults to 'int' in declaration of 'mainChara' [-Wimplicit-int]
+make: *** [src/main.o] ´íÎó 1
+19:59:14 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59860	   2336	  22700	  84896	  14ba0	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+19:59:18 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+20:00:00 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60032	   2336	  22700	  85068	  14c4c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+20:00:51 **** Auto Build of project ps2_w_beep_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling px2_game..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling test_new2..."
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+20:01:15 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59776	   2336	  22700	  84812	  14b4c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+20:02:05 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+20:02:24 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+20:02:49 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+20:05:05 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+20:06:51 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:92:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:92:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59792	   2336	  22700	  84828	  14b5c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+20:06:58 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+20:08:03 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:92:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:92:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59792	   2336	  22700	  84828	  14b5c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+20:09:57 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:96:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:96:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59792	   2336	  22700	  84828	  14b5c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+20:10:18 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+20:26:22 **** Clean-only build of project ps2_w_beep_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+20:26:23 **** Clean-only build of configuration Debug for project ps2_w_beep ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  ps2_w_beep.elf.size  ps2_w_beep.elf
+' '
+20:26:23 **** Build of project ps2_w_beep_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling px2_game..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling test_new2..."
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+20:26:47 **** Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:96:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:96:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59792	   2336	  22700	  84828	  14b5c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+20:27:48 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+08:00:49 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+08:11:17 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:96:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:96:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59792	   2336	  22700	  84828	  14b5c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+08:11:29 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+08:20:28 **** Clean-only build of project ps2_w_beep_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+08:20:28 **** Clean-only build of configuration Debug for project ps2_w_beep ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  ps2_w_beep.elf.size  ps2_w_beep.elf
+' '
+08:20:29 **** Build of project ps2_w_beep_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/px2_game_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/px2_game_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling px2_game..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/test_new2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/test_new2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling test_new2..."
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+08:20:51 **** Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:96:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:96:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59792	   2336	  22700	  84828	  14b5c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+08:21:56 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+08:56:11 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:97:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:97:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59968	   2336	  22700	  85004	  14c0c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+08:56:24 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:91:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:91:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59968	   2336	  22700	  85004	  14c0c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+08:58:08 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:99:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:99:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+../src/main.c:75:7: warning: unused variable 'right_curr' [-Wunused-variable]
+   int right_curr = (low_twelve >> 0) & 1;
+       ^
+../src/main.c:74:7: warning: unused variable 'left_curr' [-Wunused-variable]
+   int left_curr = (low_twelve >> 1) & 1;
+       ^
+../src/main.c:73:7: warning: unused variable 'down_curr' [-Wunused-variable]
+   int down_curr = (low_twelve >> 2) & 1;
+       ^
+../src/main.c:72:7: warning: unused variable 'up_curr' [-Wunused-variable]
+   int up_curr = (low_twelve >> 3) & 1;
+       ^
+../src/main.c:71:7: warning: unused variable 'r1_curr' [-Wunused-variable]
+   int r1_curr = (low_twelve >> 4) & 1;
+       ^
+../src/main.c:70:7: warning: unused variable 'l1_curr' [-Wunused-variable]
+   int l1_curr = (low_twelve >> 5) & 1;
+       ^
+../src/main.c:69:7: warning: unused variable 'r2_curr' [-Wunused-variable]
+   int r2_curr = (low_twelve >> 6) & 1;
+       ^
+../src/main.c:68:13: warning: unused variable 'l2_curr' [-Wunused-variable]
+         int l2_curr = (low_twelve >> 7) & 1;
+             ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60280	   2336	  22700	  85316	  14d44	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+08:58:33 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:99:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:99:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+../src/main.c:75:7: warning: unused variable 'right_curr' [-Wunused-variable]
+   int right_curr = (low_twelve >> 0) & 1;
+       ^
+../src/main.c:74:7: warning: unused variable 'left_curr' [-Wunused-variable]
+   int left_curr = (low_twelve >> 1) & 1;
+       ^
+../src/main.c:73:7: warning: unused variable 'down_curr' [-Wunused-variable]
+   int down_curr = (low_twelve >> 2) & 1;
+       ^
+../src/main.c:72:7: warning: unused variable 'up_curr' [-Wunused-variable]
+   int up_curr = (low_twelve >> 3) & 1;
+       ^
+../src/main.c:71:7: warning: unused variable 'r1_curr' [-Wunused-variable]
+   int r1_curr = (low_twelve >> 4) & 1;
+       ^
+../src/main.c:70:7: warning: unused variable 'l1_curr' [-Wunused-variable]
+   int l1_curr = (low_twelve >> 5) & 1;
+       ^
+../src/main.c:69:7: warning: unused variable 'r2_curr' [-Wunused-variable]
+   int r2_curr = (low_twelve >> 6) & 1;
+       ^
+../src/main.c:68:13: warning: unused variable 'l2_curr' [-Wunused-variable]
+         int l2_curr = (low_twelve >> 7) & 1;
+             ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60280	   2336	  22700	  85316	  14d44	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:01:31 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+../src/main.c:71:7: warning: unused variable 'r1_curr' [-Wunused-variable]
+   int r1_curr = (low_twelve >> 4) & 1;
+       ^
+../src/main.c:70:7: warning: unused variable 'l1_curr' [-Wunused-variable]
+   int l1_curr = (low_twelve >> 5) & 1;
+       ^
+../src/main.c:69:7: warning: unused variable 'r2_curr' [-Wunused-variable]
+   int r2_curr = (low_twelve >> 6) & 1;
+       ^
+../src/main.c:68:13: warning: unused variable 'l2_curr' [-Wunused-variable]
+         int l2_curr = (low_twelve >> 7) & 1;
+             ^
+../src/main.c:44:110: warning: unused variable 'r2_prev' [-Wunused-variable]
+     int tri_prev, o_prev, x_prev, square_prev,l1_prec,l2_prev,left_prev,right_prev,up_prev,down_prev,r1_prev,r2_prev;
+                                                                                                              ^
+../src/main.c:44:102: warning: unused variable 'r1_prev' [-Wunused-variable]
+     int tri_prev, o_prev, x_prev, square_prev,l1_prec,l2_prev,left_prev,right_prev,up_prev,down_prev,r1_prev,r2_prev;
+                                                                                                      ^
+../src/main.c:44:55: warning: unused variable 'l2_prev' [-Wunused-variable]
+     int tri_prev, o_prev, x_prev, square_prev,l1_prec,l2_prev,left_prev,right_prev,up_prev,down_prev,r1_prev,r2_prev;
+                                                       ^
+../src/main.c:44:47: warning: unused variable 'l1_prec' [-Wunused-variable]
+     int tri_prev, o_prev, x_prev, square_prev,l1_prec,l2_prev,left_prev,right_prev,up_prev,down_prev,r1_prev,r2_prev;
+                                               ^
+../src/main.c:43:55: warning: variable 'r2' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                                       ^
+../src/main.c:43:52: warning: variable 'r1' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                                    ^
+../src/main.c:43:49: warning: variable 'l2' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                                 ^
+../src/main.c:43:46: warning: variable 'l1' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                              ^
+../src/main.c:43:41: warning: variable 'down' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                         ^
+../src/main.c:43:38: warning: variable 'up' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                      ^
+../src/main.c:43:32: warning: variable 'right' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                ^
+../src/main.c:43:27: warning: variable 'left' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                           ^
+../src/main.c:85:50: warning: 'left_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    left = (left_curr == 0 && left_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:86:53: warning: 'right_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    right = (right_curr == 0 && right_prev == 0) ? 1 : 0;
+                                                     ^
+../src/main.c:87:44: warning: 'up_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    up = (up_curr == 0 && up_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:88:50: warning: 'down_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    down = (down_curr == 0 && down_prev == 0) ? 1 : 0;
+                                                  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60600	   2336	  22700	  85636	  14e84	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:02:04 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:89:26: error: 'l1_prev' undeclared (first use in this function)
+    l1 = (l1_curr == 0 && l1_prev == 0) ? 1 : 0;
+                          ^
+../src/main.c:89:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+../src/main.c:44:47: warning: unused variable 'l1_prec' [-Wunused-variable]
+     int tri_prev, o_prev, x_prev, square_prev,l1_prec,l2_prev,left_prev,right_prev,up_prev,down_prev,r1_prev,r2_prev;
+                                               ^
+../src/main.c:43:55: warning: variable 'r2' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                                       ^
+../src/main.c:43:52: warning: variable 'r1' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                                    ^
+../src/main.c:43:49: warning: variable 'l2' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                                 ^
+../src/main.c:43:46: warning: variable 'l1' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                              ^
+../src/main.c:43:41: warning: variable 'down' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                         ^
+../src/main.c:43:38: warning: variable 'up' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                      ^
+../src/main.c:43:32: warning: variable 'right' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                ^
+../src/main.c:43:27: warning: variable 'left' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                           ^
+make: *** [src/main.o] ´íÎó 1
+09:02:21 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+../src/main.c:43:55: warning: variable 'r2' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                                       ^
+../src/main.c:43:52: warning: variable 'r1' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                                    ^
+../src/main.c:43:49: warning: variable 'l2' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                                 ^
+../src/main.c:43:46: warning: variable 'l1' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                              ^
+../src/main.c:43:41: warning: variable 'down' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                         ^
+../src/main.c:43:38: warning: variable 'up' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                      ^
+../src/main.c:43:32: warning: variable 'right' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                                ^
+../src/main.c:43:27: warning: variable 'left' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square,left,right,up,down,l1,l2,r1,r2;
+                           ^
+../src/main.c:85:50: warning: 'left_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    left = (left_curr == 0 && left_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:86:53: warning: 'right_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    right = (right_curr == 0 && right_prev == 0) ? 1 : 0;
+                                                     ^
+../src/main.c:87:44: warning: 'up_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    up = (up_curr == 0 && up_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:88:50: warning: 'down_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    down = (down_curr == 0 && down_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:89:44: warning: 'l1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l1 = (l1_curr == 0 && l1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:90:44: warning: 'r1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r1 = (r1_curr == 0 && r1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:91:44: warning: 'l2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l2 = (l2_curr == 0 && l2_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:92:44: warning: 'r2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r2 = (r2_curr == 0 && r2_prev == 0) ? 1 : 0;
+                                            ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60600	   2336	  22700	  85636	  14e84	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:04:09 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+../src/main.c:85:50: warning: 'left_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    left = (left_curr == 0 && left_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:86:53: warning: 'right_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    right = (right_curr == 0 && right_prev == 0) ? 1 : 0;
+                                                     ^
+../src/main.c:87:44: warning: 'up_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    up = (up_curr == 0 && up_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:88:50: warning: 'down_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    down = (down_curr == 0 && down_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:89:44: warning: 'l1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l1 = (l1_curr == 0 && l1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:90:44: warning: 'r1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r1 = (r1_curr == 0 && r1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:91:44: warning: 'l2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l2 = (l2_curr == 0 && l2_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:92:44: warning: 'r2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r2 = (r2_curr == 0 && r2_prev == 0) ? 1 : 0;
+                                            ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60712	   2336	  22700	  85748	  14ef4	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:04:11 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:108:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+../src/main.c:85:50: warning: 'left_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    left = (left_curr == 0 && left_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:86:53: warning: 'right_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    right = (right_curr == 0 && right_prev == 0) ? 1 : 0;
+                                                     ^
+../src/main.c:87:44: warning: 'up_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    up = (up_curr == 0 && up_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:88:50: warning: 'down_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    down = (down_curr == 0 && down_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:89:44: warning: 'l1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l1 = (l1_curr == 0 && l1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:90:44: warning: 'r1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r1 = (r1_curr == 0 && r1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:91:44: warning: 'l2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l2 = (l2_curr == 0 && l2_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:92:44: warning: 'r2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r2 = (r2_curr == 0 && r2_prev == 0) ? 1 : 0;
+                                            ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60712	   2336	  22700	  85748	  14ef4	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:04:52 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+09:06:23 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:85:50: warning: 'left_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    left = (left_curr == 0 && left_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:86:53: warning: 'right_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    right = (right_curr == 0 && right_prev == 0) ? 1 : 0;
+                                                     ^
+../src/main.c:87:44: warning: 'up_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    up = (up_curr == 0 && up_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:88:50: warning: 'down_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    down = (down_curr == 0 && down_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:89:44: warning: 'l1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l1 = (l1_curr == 0 && l1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:90:44: warning: 'r1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r1 = (r1_curr == 0 && r1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:91:44: warning: 'l2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l2 = (l2_curr == 0 && l2_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:92:44: warning: 'r2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r2 = (r2_curr == 0 && r2_prev == 0) ? 1 : 0;
+                                            ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34700	   2208	  22676	  59584	   e8c0	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:06:28 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+09:08:39 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:85:50: warning: 'left_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    left = (left_curr == 0 && left_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:86:53: warning: 'right_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    right = (right_curr == 0 && right_prev == 0) ? 1 : 0;
+                                                     ^
+../src/main.c:87:44: warning: 'up_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    up = (up_curr == 0 && up_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:88:50: warning: 'down_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    down = (down_curr == 0 && down_prev == 0) ? 1 : 0;
+                                                  ^
+../src/main.c:89:44: warning: 'l1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l1 = (l1_curr == 0 && l1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:90:44: warning: 'r1_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r1 = (r1_curr == 0 && r1_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:91:44: warning: 'l2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    l2 = (l2_curr == 0 && l2_prev == 0) ? 1 : 0;
+                                            ^
+../src/main.c:92:44: warning: 'r2_prev' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    r2 = (r2_curr == 0 && r2_prev == 0) ? 1 : 0;
+                                            ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34636	   2208	  22676	  59520	   e880	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:08:50 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+09:10:35 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:91:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:91:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59968	   2336	  22700	  85004	  14c0c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:10:38 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:91:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:91:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59968	   2336	  22700	  85004	  14c0c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:10:43 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:91:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+         printf("current:%u\n",current_value);
+         ^
+../src/main.c:91:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59968	   2336	  22700	  85004	  14c0c	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:10:56 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+09:11:54 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33888	   2208	  22676	  58772	   e594	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:11:57 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+09:13:17 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+09:14:38 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33888	   2208	  22676	  58772	   e594	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+09:15:21 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33888	   2208	  22676	  58772	   e594	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+15:06:08 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33888	   2208	  22676	  58772	   e594	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+16:57:20 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+16:57:51 **** Auto Build of configuration Debug for project ps2_w_beep ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../ps2_w_beep_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:43:20: warning: variable 'square' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square;
+                    ^
+../src/main.c:43:17: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square;
+                 ^
+../src/main.c:43:9: warning: variable 'tri' set but not used [-Wunused-but-set-variable]
+     int tri, o, x, square;
+         ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ps2_w_beep.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ps2_w_beep_bsp/ps7_cortexa9_0/lib -o "ps2_w_beep.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps2_w_beep.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ps2_w_beep.elf  |tee "ps2_w_beep.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21116	   1168	  22628	  44912	   af70	ps2_w_beep.elf
+'Finished building: ps2_w_beep.elf.size'
+' '
+16:58:03 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+17:43:07 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
+18:07:07 **** Incremental Build of configuration Debug for project ps2_w_beep ****
+make all 
+make: Nothing to be done for `all'.
